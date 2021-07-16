@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.icici</groupId>
+  <artifactId>internetbanking-webapp</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>internetbanking-webapp Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+
+  <spring.version></spring.version>
+   <sonar.host.url>http://65.2.3.169:9000/</sonar.host.url>
+  <!-- <sonar.login>admin</sonar.login> 
+  <sonar.password>admin</sonar.password> -->  
+    <sonar.login>e93d0b1cfde09de7f467606997d452a60088d8e6</sonar.login> 
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  
+ <!-- <distributionManagement>
+  <repository>
+    <id>nexus</id>
+   <name>ibbanking</name>
+   <url>http://3.108.190.166:8081/repository/inbanking-releases/</url>
+  </repository>
+  <snapshotRepository>
+  <id>nexus</id>
+  <name>atmproject snapshot</name>
+  <url>http://3.108.190.166:8081/repository/inbanking-snapshots/</url>
+  </snapshotRepository> 
+  </distributionManagement> --> 
+	
+
+  <build>
+    <finalName>internetbanking-webapp</finalName>
+  </build>
+</project>
